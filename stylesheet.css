@@ -1,0 +1,48 @@
+body {
+  max-width: 500px;
+  margin: auto;
+}
+
+#search {
+  font-size: 16px;
+  padding: 7px;
+  border: 2px solid #ddd;
+  margin: 15px 0 15px;
+}
+
+#spellTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+#spellTable th, #spellTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#spellTable tr.header {
+  border: 1px solid #ddd;
+}
+
+#spellTable tr.header {
+  background-color: #f1f1f1;
+}
+
+#spellTable tr.main:hover {
+  background-color: #f1f1f1;
+  border-top: 1px solid #ddd;
+}
+
+#spellTable tr.main {
+  border-top: 1px solid #ddd;
+}
+
+#spellTable td[colspan] {
+  padding-top: 0; padding-bottom: 0;
+} 
+
+#spellTable td[colspan] p {
+  padding-top: 0px; padding-bottom: 12px;
+}
